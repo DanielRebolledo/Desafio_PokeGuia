@@ -90,11 +90,12 @@ export default {
   }
   main{ 
     max-width: 400px; 
-    margin: auto; 
+    margin: 100px auto; 
     background-color: #fff;
     border-radius: 25px;
     text-align: center;
     padding-bottom: 15px;
+    box-shadow: -2px 5px 27px -1px #CAAC1F;
   }
   .pokemon-foto{ 
       text-align: center;
@@ -121,6 +122,11 @@ export default {
     background-color: #316ab1;
     border: none;
     margin:  20px auto;
+    transition: all ease-in 0.2s;
+  }
+  .buscar-btn:hover{ 
+    background-color: #ffda27;
+    font-size: 15px;
   }
   .lista{ 
     text-align: left;
